@@ -1,0 +1,58 @@
+ leet code first program
+ https://leetcode.com/problems/two-sum/submissions/1906748677/
+ print("     /|")
+print("    / |")
+print("   /  |")
+print("  /   |")
+print(" /____|")
+a=10
+b=20
+c=a+b
+print(c)
+a_name="sfuysdfsd"
+b_age="19"
+print("There Once was a girl"+a_name)
+print("her age is:"+b_age)
+is_male=False
+print(is_male)
+a="giraffe"
+print(a+"is a animal")
+print("giraffee".lower())
+a="girafee"
+print(len(a))
+print(len("girafee"))                      
+print(a[0:5])   
+print(a.index("f"))
+print(a.replace("girafee","Animal"))
+print(a)
+a=a.replace("girafee","donkey")
+print(a)
+print(3+5)
+print(10/3)
+print(10+3)
+print(10//3)
+a=5
+print(str (a) +" my lucky numner")
+print(ord("A"))
+print(chr(97))
+print(pow(3,2))
+print(pow(343,91))
+print(max(5,7))
+print(min(2,7))
+print(round(3.2))
+from math import *
+print(floor(3.7))
+print(ceil(3.7))
+
+friend =['k','p','g']
+print(friend.index('p'))
+def say_hi(name,age):
+    print("hello"+name +",you are"+age)
+say_hi("dish","3")
+say_hi("sai","8")
+def sss(name,age,number):
+    print("hello" +name + " you are in " + age + "give your phone number"+number)
+sss("dishu","20","996552632")
+
+
+these are 1st day of pyhton programs
