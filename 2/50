@@ -1,0 +1,47 @@
+leet code palindrome problem 2nd one 
+class Solution:
+    def isPalindrome(self, x):
+        if x < 0:
+            return False
+
+        original = x
+        rev = 0
+
+        while x > 0:
+            rev = rev * 10 + x % 10
+            x //= 10
+
+        return original == rev
+
+
+       ## Valid Palindrome (String)
+       def isPalindrome(s):
+    s = ''.join(c.lower() for c in s if c.isalnum())
+    return s == s[::-1]
+###Reverse Integer
+def reverse(x):
+    sign = -1 if x < 0 else 1
+    x = abs(x)
+    rev = 0
+    while x:
+        rev = rev * 10 + x % 10
+        x //= 10
+    return sign * rev
+
+
+###Palindrome String Input
+s = input()
+print("Palindrome" if s == s[::-1] else "Not Palindrome")
+
+
+##Count Palindrome Numbers in Range
+
+
+
+def countPalindrome(n):
+    count = 0
+    for i in range(1, n+1):
+        if str(i) == str(i)[::-1]:
+            count += 1
+    return count
+
